@@ -23,28 +23,43 @@
 						<h1 style="color:black" >2025-2027 Banka Promosyonu</h1>
 						<p style="color:black; font-weight: bold;"> Promosyon tekliflerini görüntüleyebilir &nbsp;&bull;&nbsp; Anket ile fikrinizi belirtbilirsiniz</p>
 						<nav>
-							<ul>
-  <li style="list-style: none;">
+							<!-- Buton -->
+<ul class="buton-kapsayici">
+  <li>
     <a href="https://atillakaan1990.github.io/indirimler/sayfa.html" class="indir-buton">İndir</a>
   </li>
 </ul>
-							<style>
+
+<!-- Stil -->
+<style>
+  /* Listeyi sıfırla ve ortala */
+  .buton-kapsayici {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Butonu ortalar */
+  }
+
+  .buton-kapsayici li {
+    display: inline-block;
+  }
+
   .indir-buton {
     display: inline-block;
-    background-color: #28a745; /* Yeşil renk */
+    background-color: #28a745;
     color: white;
-    padding: 20px 60px; /* 10px dikey (yükseklik), 60px yatay (genişlik) */
+    padding: 10px 60px; /* Dikey - yatay boşluk */
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     border: none;
-    border-radius: 8px; /* Hafif kavisli köşeler */
+    border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
 
   .indir-buton:hover {
-    background-color: #218838; /* Üzerine gelince koyu yeşil */
-    transform: scale(1.03); /* Hafif büyüme efekti */
+    background-color: #218838;
+    transform: scale(1.03);
   }
 </style>
 						</nav>
@@ -65,6 +80,7 @@
 	</body>
 
 </html>
+
 
 
 
